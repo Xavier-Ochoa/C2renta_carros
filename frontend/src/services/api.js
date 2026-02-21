@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const api = axios.create({
-  baseURL: 'https://PON-AQUI-TU-URL-BACKEND.vercel.app/api',
+  baseURL: 'https://c2renta-carrosback.vercel.app/api',
   headers: { 'Content-Type': 'application/json' }
 })
 
