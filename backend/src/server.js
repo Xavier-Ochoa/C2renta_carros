@@ -21,7 +21,8 @@ app.use(
   cors({
     origin: [
       'http://localhost:5173',
-      'https://c2renta-carrosfront.vercel.app',      
+      'https://c2renta-carrosfront.vercel.app',   
+      'https://c2-renta-autos.vercel.app',
       'http://localhost:3000',
       process.env.URL_FRONTEND,
     ].filter(Boolean),
